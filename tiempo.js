@@ -76,6 +76,4 @@
         }
       }
     }
-
-    getWeatherBtn.addEventListener('click', updateWeatherInfo);
- 
+    getWeatherBtn.addEventListener('click', updateWeatherInfo);//

@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+
+  }
+.container-fluid {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Estilos para el encabezado */
+h1 {
+  color: #333;
+}
+
+/* Estilos para el selector de ciudades */
+.form-select {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+    margin: 0 auto;
+    display: block !important;
+    /* Forces the input to take up full width of its container (see below)*/
+    box-sizing: border-box;
+    /* Prevents padding and border from making the input too wide */
+    font-size: 16px;
+    /* Ensures the select box text does not overlap the chevron */
+    text-overflow: ellipsis;
+    /* Prevents the chevron from being hidden when you move the cursor over the select box */
+}
+
+/* Estilos para el botón */
+#get-weather-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#get-weather-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la tarjeta de clima */
+.card {
+  width: 18rem;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+/* Estilos para el ícono del clima */
+#weather-icon {
+  color: #333;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+body {
+  
+ 
+    background-image: url('sunday.jpg');
+      background-size: cover;
+    background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      /*ajustamos la imagen segun su tamaño*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    /* Estilos para el botón */
+#get-weather-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#get-weather-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#get-weather-btn:focus {
+  outline: none;
+}
+/* Estilos para la tarjeta de clima */
+.card {
+  width: 18rem;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
