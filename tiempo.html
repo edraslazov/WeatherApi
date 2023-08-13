@@ -14,11 +14,12 @@
     <h1 class="mb-4">Clima en El Salvador</h1>
 
     <select id="city-select" class="form-select mb-3">
+      <option>Seleccionar departamento</option>
       <option value="13.48421,-88.18735">San Miguel</option>
       <option value="13.68935,-89.18718">San Salvador</option>
       <option value="13.35074,-88.45132">Usulután</option>
       <option value="13.99417,-89.55972">Santa Ana</option>
-      <option value="13.33266,-87.83909">La Unión</option>  
+      <option value="13.33266,-87.83909">La Unión</option>
       <option value="13.91098,-89.84539">Ahuachapán</option>
       <option value="13.72023,-89.72683">Sonsonate</option>
       <option value="13.64198,-88.78598">San Vicente</option>
@@ -28,7 +29,7 @@
       <option value="13.48864,-88.86967">La Paz</option>
       <option value="13.71772,-88.92997">Cuscatlán</option>
       <option value="13.70105,-88.10439">Morazán</option>
-    </select>
+    </select>
 
     <button id="get-weather-btn" class="btn btn-primary mb-3">Obtener Clima</button>
 
@@ -37,6 +38,8 @@
         <h5 class="card-title">Datos del Clima</h5>
         <div class="weather-icon mb-3" id="weather-icon"></div>
         <p class="card-text" id="weather-info"></p>
+        <p class="card-text" id="date-time"></p>
+        <div class="hora" id="horaActual"><span id="diaHora"></span> <i class="far fa-sun" id="iconoDia"></i> <i class="far fa-moon" id="iconoNoche"></i></div> 
       </div>
     </div>
   </div>
